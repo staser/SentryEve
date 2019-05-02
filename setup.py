@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name='sentry-eve',
     version='0.1',
-    scripts=['sentry-eve'],
+    scripts=['sentry-eve.py'],
     author="Standart AG, LLC",
     author_email="it@standart.lv",
     description="Eve Sentry support",
