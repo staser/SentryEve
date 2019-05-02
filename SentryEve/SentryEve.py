@@ -2,6 +2,7 @@ from eve import Eve
 from raven.contrib.flask import Sentry
 import logging
 
+
 class SentryEve(Eve):
     """
     Workaround for https://github.com/pyeve/eve/issues/1087
@@ -22,3 +23,6 @@ class SentryEve(Eve):
                                  logging=True,
                                  level=logging.ERROR,
                                  )
+
+
+__all__ = ['SentryEve', ]

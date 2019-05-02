@@ -5,14 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='sentry-eve',
-    version='0.1',
-    scripts=['sentry-eve.py'],
+    version='0.0.0.1c1',
     author="Standart AG, LLC",
     author_email="it@standart.lv",
     description="Eve Sentry support",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/staser/SentryEvee",
+    url="https://github.com/staser/SentryEve",
     packages=setuptools.find_packages(),
     install_requires=[
         'eve', 'raven[flask]'
